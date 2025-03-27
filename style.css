@@ -12,10 +12,14 @@ body{
     color: #333; /* Optional: Set default text color */
 }
 .align{
-    display:inline-block ;
+    display:inline-block;
 }
 
 img {
     height: 250px;
     width: 250px;
+}
+
+figure {
+    display: inline-block;
 }
