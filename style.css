@@ -1,0 +1,21 @@
+.head{ /* Title*/
+    text-align: center;
+}
+.para{
+    display:flex
+}
+body{
+    background: linear-gradient(to right, #0C83C9, rgb(177, 37, 37));
+    height: 100vh; /* Ensure the gradient covers the entire height of the page */
+    margin: 0; /* Remove default margins */
+    font-family: Arial, sans-serif; /* Optional: Add a default font */
+    color: #333; /* Optional: Set default text color */
+}
+.align{
+    display:inline-block ;
+}
+
+img {
+    height: 250px;
+    width: 250px;
+}
