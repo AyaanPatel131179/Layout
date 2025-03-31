@@ -1,26 +1,50 @@
 <!-- Ayaan, Layout, 3/27/25 -->
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <link href="style.css" rel="stylesheet" type="text/css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Layout</title>
 </head>
+<!-- Organized by making a big div around paragraphs, images, enidn paragaph then i split it into left and right divs inside the big div so i can make a sibebar to the right -->
 <body>
-    <h1 class = "head">Lorem Ipsum</h1>
-    <p class = "para">Lorem ipsum dolor sit amet. Ut placeat dolorem aut consequatur distinctio et dolores optio sed rerum omnis aut sint voluptate ut iure repellat! Est maxime assumenda a eius enim et totam quia ut atque consequatur qui labore nihil sit autem voluptatem id repellat illum?</p>
-    <div class="align"> 
-    <figure>
-        <img src="https://www.schmidtspiele.de/assets/images/8/57387_Premium_Puzzles_Random_Galaxy_Wraps_Pizza_Faultier_Galaxie_Taco_1000_Teile_Puzzle_72ppi_Motiv-880bf02e.jpg">
-        <figcaption>Galaxy</figcaption>
-    </figure>
-    <figure><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLg5gfY7_Tb_OGCp7-RZcmBJIX_S6wfpzlEg&s">
-        <figcaption>Purpler Person</figcaption>
-    </figure>
-    <figure><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyLTD-EEs8bxwuZtNSWPEROeaAu3FvGnlGQ6BhxGc4fuuphh9jJz1OWtJQII7BMUlrCHA&usqp=CAU">
-    <figcaption>dog</figcaption>
-</figure> 
-</div>
+    <h1 class="head">Lorem Ipsum</h1>
+    <div class="all"> <!-- Big Div -->
+        <div class="left"> <!-- left so images and stuff -->
+            <p class="para">Lorem ipsum dolor sit amet. Ut placeat dolorem aut consequatur distinctio et dolores optio
+                sed
+                rerum omnis aut sint voluptate ut iure repellat! Est maxime assumenda a eius enim et totam quia ut atque
+                consequatur qui labore nihil sit autem voluptatem id repellat illum?</p>
+            <div class="align">
+                <figure>
+                    <img
+                        src="https://www.schmidtspiele.de/assets/images/8/57387_Premium_Puzzles_Random_Galaxy_Wraps_Pizza_Faultier_Galaxie_Taco_1000_Teile_Puzzle_72ppi_Motiv-880bf02e.jpg">
+                    <figcaption>Galaxy</figcaption>
+                </figure>
+                <figure><img
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLg5gfY7_Tb_OGCp7-RZcmBJIX_S6wfpzlEg&s">
+                    <figcaption>Purpler Person</figcaption>
+                </figure>
+                <figure><img
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyLTD-EEs8bxwuZtNSWPEROeaAu3FvGnlGQ6BhxGc4fuuphh9jJz1OWtJQII7BMUlrCHA&usqp=CAU">
+                    <figcaption>dog</figcaption>
+                </figure>
+                <p class="para">Lorem ipsum dolor sit amet. Ut placeat dolorem aut consequatur distinctio et dolores
+                    optio
+                    sed rerum omnis aut sint voluptate ut iure repellat! Est maxime assumenda a eius enim et totam quia
+                    ut
+                    atque consequatur qui labore nihil sit autem voluptatem id repellat illum?</p>
+            </div>
+        </div>
+        <div class="right"> <!-- for right so sidebar -->
+            <h2 class="head">Sidebar</h2>
+            <p>lorium epsium skibium toieltium, ohium gyatim risim. sendium dagestanium </p>
+        </div>
+    </div>
+
+
 </body>
+
 </html>
