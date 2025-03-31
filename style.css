@@ -23,3 +23,21 @@ img {
 figure {
     display: inline-block;
 }
+
+.all {
+    display: inline-block;
+}
+
+.right {
+    height: auto;
+    width: 20%;
+    padding-bottom: 30%;
+    background-color: #0C83C9;
+    float: right;
+}
+
+.left {
+    height: auto;
+    width: 70%;
+float: left;
+}
